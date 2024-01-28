@@ -1,0 +1,37 @@
+* {
+   margin : 0;
+   padding : 0;
+   box-sizing: border-box;
+   font-family: 'Gilroy';
+   background-color: #000306;
+}
+
+html, body {
+   height: 100%;
+   width: 100%;
+}
+
+.main{
+    height:50vh;
+    width: 50vw;
+}
+
+.text{
+    font-size: 7rem;
+    font-weight: 100;
+    color: rgb(214, 214, 214);
+    background-color: red;
+}
+
+.ball{
+    position: absolute;
+    left:0;
+    top:0;
+    height:10px;
+    width: 10px;
+    background-color: white;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    transition: all ease 0.15s;
+}
